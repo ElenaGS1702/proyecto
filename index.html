@@ -8,20 +8,36 @@
 </head>
 <body>
     <header>
-        <h1>Libreria "Vuela tu imaginacion"</h1>
-        <span id="search-book">
-            <label for="search">Buscar un libro: </label>
-            <input type="text" id="search">
-            <img src="https://cdn.icon-icons.com/icons2/2072/PNG/512/find_internet_magnifier_search_security_seo_zoom_icon_127104.png" alt="" width="20" height="20">
-        </span>
+        <div class="header-text">
+            <span class="submenu1">Incio</span>
+            <span class="submenu1">Libros</span>
+        </div>
+        <div class="header-text" style="text-align: center;">Libreria Online</div>
+        <div class="header-text" style="text-align: end;">
+            <span class="submenu2">Sobre Nosostros</span>
+            <span class="submenu2">Contacto</span>
+        </div>
     </header>
+    <main>
+        <section id="section-one">
+            <p id="text-1">Explora nuestra colección de libros.</p>
+            <p id="text-2">Encuentra tus lecturas favoritas y más en un solo lugar.</p>
+            <button id="button-buy">Compra Ahora</button>
+        </section>
+        <section id="img-section">
+            <img id="img-library" src="./library.jpeg" alt="Library">
+        </section>
+    </main>
     <br>
     <hr>
     <table>
         <tr>
             <td width="33.33%">
                 <div>
-                    <img src="https://images.cdn1.buscalibre.com/fit-in/360x360/d0/07/d00745b45b7c4ab809d74d435c0b566e.jpg" alt="Libro 1" width="200" height="250">
+                    <img 
+                        class="img-book"
+                        src="https://images.cdn1.buscalibre.com/fit-in/360x360/d0/07/d00745b45b7c4ab809d74d435c0b566e.jpg" 
+                        alt="Libro 1" width="200" height="250">
                 </div>
                 <div>
                     <h3>Programacion con Python: Guía Completa Para Principiantes</h3>
@@ -37,7 +53,10 @@
             </td>
             <td width="33.33%">
                 <div>
-                    <img src="https://simehbucket.s3.amazonaws.com/images/3012e4fbe03f911b804ed3e00de3da15-medium.jpg" alt="Libro 2" width="200" height="250">
+                    <img
+                        class="img-book" 
+                        src="https://simehbucket.s3.amazonaws.com/images/3012e4fbe03f911b804ed3e00de3da15-medium.jpg" 
+                        alt="Libro 2" width="200" height="250">
                 </div>
                 <div>
                     <h3>Algoritmos y programación en pseudocódigo</h3>
@@ -53,7 +72,10 @@
             </td>
             <td width="33.33%">
                 <div>
-                    <img src="https://m.media-amazon.com/images/I/51E2055ZGUL._AC_UF1000,1000_QL80_.jpg" alt="Libro 3" width="200" height="250">
+                    <img
+                        class="img-book" 
+                        src="https://m.media-amazon.com/images/I/51E2055ZGUL._AC_UF1000,1000_QL80_.jpg" 
+                        alt="Libro 3" width="200" height="250">
                 </div>
                 <div>
                     <h3>Clean Code: A Handbook of Agile Software Craftsmanship</h3>
@@ -71,7 +93,10 @@
         <tr>
             <td width="33.33%">
                 <div>
-                    <img src="https://anayamultimedia.es/imagenes/libros/grande/9788441543249-curso-de-programacion-java.jpg" alt="Libro 4" width="200" height="250">
+                    <img
+                        class="img-book" 
+                        src="https://anayamultimedia.es/imagenes/libros/grande/9788441543249-curso-de-programacion-java.jpg" 
+                        alt="Libro 4" width="200" height="250">
                 </div>
                 <div>
                     <h3>Curso de programación Java</h3>
@@ -87,7 +112,10 @@
             </td>
             <td width="33.33%">
                 <div>
-                    <img src="https://alfaomega.com.mx/wp-content/uploads/2023/07/4-33.png" alt="Libro 5" width="200" height="250">
+                    <img
+                        class="img-book" 
+                        src="https://alfaomega.com.mx/wp-content/uploads/2023/07/4-33.png" 
+                        alt="Libro 5" width="200" height="250">
                 </div>
                 <div>
                     <h3>HTML y CSS – Curso práctico avanzado</h3>
@@ -103,7 +131,10 @@
             </td>
             <td width="33.33%">
                 <div>
-                    <img src="https://static.cegal.es/imagenes/marcadas/9786077/978607707194.gif" alt="Libro 6" width="200" height="250">
+                    <img
+                        class="img-book" 
+                        src="https://static.cegal.es/imagenes/marcadas/9786077/978607707194.gif" 
+                        alt="Libro 6" width="200" height="250">
                 </div>
                 <div>
                     <h3>DOMINE HTML 5 Y CSS2</h3>
@@ -119,7 +150,7 @@
             </td>
         </tr>
     </table>
-    <br>
+    <!-- <br> -->
     <hr>
     <h3>Si quires recibir notificaciones por correo electronico sobre los nuevos titulos que tenemos disponibles, llena el siguiente formulario</h3>
     <form action="">
