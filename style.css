@@ -1,7 +1,5 @@
 * {
-
     box-sizing: border-box;
-  
 }
 
 body {
@@ -126,4 +124,68 @@ header {
 
 #img-library {
     max-width: 100%;
+}
+
+#mision {
+    color: #65A30D;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+#mision-text {
+    color: #064E3B;
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+#section-mision {
+    padding: 200px 100px 200px 100px;
+}
+
+#title-text {
+    color: #064E3B;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#subtitle {
+    color: #059669;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#section-books {
+    margin: 50px 40px 200px 40px;
+}
+
+.generos {
+    width: 33%;
+    display: inline-block;
+}
+
+.generos-text-one {
+    color: #064E3B;
+    font-size: 18px;
+    text-align: center;
+}
+
+.generos-text-two {
+    color: #059669;
+    font-size: 14px;
+    text-align: center;
+}
+
+.generos-img {
+    max-width: 60%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#generos-subsection-two {
+    margin-top: 50px;
 }
