@@ -23,23 +23,28 @@ h1 {
     height: 300px;
 }
 
-#button-send {
-    background-color: grey;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 20px;
-}
-
-#button-send:hover {
-    background-color: rgba(139, 0, 86, 0.912);
-}
-
 input {
-    border-radius: 5px;
-    border-color: rgba(139, 0, 86, 0.912);
+    border-radius: 8px;
+    border: 2px solid #A7F3D0;
+    height: 30%;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 55px;
+    background-color: #D1FAE5;
+    margin-top: 10px;
 }
+
+label{
+    color: #064E3B;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #059669;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
 
 td {
     background-color: rgb(0, 139, 125);
@@ -55,12 +60,6 @@ td {
     color: white;
     padding: 20px 20px;
     border: none;
-}
-
-form {
-    background-color: rgba(128, 128, 128, 0.641);
-    color: white;
-    padding: 20px 20px;
 }
 
 table {
@@ -121,7 +120,7 @@ header {
     margin-bottom: 50px;
 }
 
-#button-buy {
+.button-buy {
     color: white;
     background-color: #65A30D;
     border: none;
@@ -206,7 +205,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 50px 40px 200px 40px;
+    margin: 200px 40px 200px 40px;
 }
 
 #images{
@@ -242,9 +241,30 @@ header {
     margin-bottom: 50px;
 }
 
-#explorar-text-title {
+.explorar-text-title {
     color: #064E3B;
     font-size: 56px;
     font-weight: bold;
     margin-bottom: 0px;
+}
+
+#contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+#contact-img {
+    width: 50%;
+}
+
+#form-contact{
+    width: 50%;
+    padding-left: 70px;
+}
+
+#form-text-subtitle {
+    color: #064E3B;
+    font-size: 22px;
 }
