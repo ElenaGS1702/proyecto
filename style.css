@@ -67,6 +67,9 @@ table {
     margin-bottom: 50px;
 }
 
+
+
+
 header {
     background-color: #064E3B;
     width: 100%;
@@ -74,22 +77,31 @@ header {
     border-radius: 70px;
     color: white;
     padding: 25px 5px;
-    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-text {
-    display: inline-block;
-    width: 33%;
     font-family: sans-serif;
+    display: flex;
+    gap: 15px;
 }
 
 .submenu1 {
     text-align: start;
     padding-left: 50px;
+    text-decoration: none;
+    color: white;
 }
 
 .submenu2 {
     padding-right: 50px;
+    text-decoration: none;
+    color: white;
 }
 
 #section-one {
@@ -188,4 +200,51 @@ header {
 
 #generos-subsection-two {
     margin-top: 50px;
+}
+
+#section-explorar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 40px 200px 40px;
+}
+
+#images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-around;
+    padding-right: 40px;
+}
+
+.img-explorar {
+    width: 171px;
+    height: 171px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+#button-explorar{
+    color: white;
+    background-color: #65A30D;
+    border: none;
+    border-radius: 40px;
+    padding: 20px 20px;
+}
+
+#explorar-text {
+    width: 50%;
+}
+
+#explorar-text-subtitle {
+    color: #059669;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+#explorar-text-title {
+    color: #064E3B;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 0px;
 }
