@@ -19,8 +19,6 @@ footer {
 
 #footer-library {
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
 }
 
 footer img {
@@ -281,7 +279,6 @@ header {
 
 .pregunta {
     width: 50%;
-    /* width: 700px; */
     padding-right: 50px;
     color: #064E3B;
     font-size: 18px;
