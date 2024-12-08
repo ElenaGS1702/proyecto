@@ -4,23 +4,42 @@
 
 body {
     background-color: #D1FAE5;
+    margin: 0px;
+    padding: 0px;
 }
 
 footer {
-    background-color: black;
-    padding: 10px 20px;
+    background-color: #064E3B;
     color: white;
-}
-
-h1 {
-    background-color: black;
-    padding: 30px 20px;
-    color: white;
-}
-
-.img-book:hover {
-    width: 250px;
     height: 300px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 20px 60px 40px;
+}
+
+#footer-library {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+footer img {
+    margin-right: 10px;
+}
+
+#footer-left {
+    width: 50%;
+}
+
+#footer-right {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer-right p {
+    width: 25%;
+    font-size: 14px;
 }
 
 input {
@@ -45,26 +64,6 @@ input::placeholder {
     font-size: 14px;
 }
 
-
-td {
-    background-color: rgb(0, 139, 125);
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 30px;
-}
-
-#search-book {
-    background-color: rgba(0, 139, 125, 0.634);
-    color: white;
-    padding: 20px 20px;
-    border: none;
-}
-
-table {
-    margin-bottom: 50px;
-}
 
 
 
@@ -206,6 +205,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 200px 40px 200px 40px;
+    align-items: center;
 }
 
 #images{
@@ -235,7 +235,7 @@ header {
     width: 50%;
 }
 
-#explorar-text-subtitle {
+.explorar-text-subtitle {
     color: #059669;
     font-size: 18px;
     margin-bottom: 50px;
@@ -253,6 +253,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-right: 40px;
+    align-items: center;
 }
 
 #contact-img {
@@ -267,4 +268,25 @@ header {
 #form-text-subtitle {
     color: #064E3B;
     font-size: 22px;
+}
+
+#section-preguntas {
+    margin: 200px 40px 200px 40px;
+}
+
+#contaner-preguntas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pregunta {
+    width: 50%;
+    /* width: 700px; */
+    padding-right: 50px;
+    color: #064E3B;
+    font-size: 18px;
+}
+
+hr {
+    border-color: #A7F3D0;
 }
