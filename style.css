@@ -148,6 +148,7 @@ header {
 
 #section-mision {
     padding: 200px 100px 200px 100px;
+    width: 100%;
 }
 
 #title-text {
@@ -315,6 +316,45 @@ hr {
 
     #form-contact {
         width: 100%;
+        padding-left: 0px;
+    }
+
+    #contact-img {
+        width: 100%;
+    }
+
+    .pregunta {
+        width: 100%;
+    }
+
+    footer {
+        height: 70px;
+    }
+
+    #footer-right {
+        display: none;
+    }
+
+    #footer-left {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    #images {
+        width: 100%;
+    }
+
+    #explorar-text {
+        width: 100%;
+    }
+
+    #form-contact {
+        width: 100%;
+        padding-left: 0px;
     }
 
     #contact-img {
